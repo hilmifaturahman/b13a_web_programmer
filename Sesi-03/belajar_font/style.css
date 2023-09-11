@@ -1,0 +1,30 @@
+body {
+    background: blue;
+    color: #ffffff;
+}
+
+.tulisan_satu {
+    color: green;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: normal;
+    text-decoration: underline;
+}
+
+.tulisan_dua {
+    color: orangered;
+    font-size: 24px;
+    font-style:italic;
+    text-align: right;
+    text-transform: capitalize;
+    text-decoration: overline;
+}
+
+.tulisan_tiga {
+    color: aqua;
+    font-weight: bold;
+    font-style: oblique;
+    text-align: center;
+    text-transform: lowercase;
+    text-decoration: line-through;
+    word-spacing: 10px;
+}

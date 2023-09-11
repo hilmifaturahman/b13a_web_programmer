@@ -1,0 +1,33 @@
+/* margin */
+/* h1 {
+    text-align: center;
+}
+
+.box{
+    background: blueviolet;
+    height: 200px;
+    width: 300px;
+    margin: 20px
+}
+
+.box-dua {
+    background: red;
+    height: 100px;
+    width: 600px;
+    margin-left: 70px;
+} */
+
+/* padding */
+.box {
+    background: greenyellow;
+    height: 200px;
+    width: 300px;
+    padding: 20px;
+}
+
+.box-dua {
+    background: navy;
+    height: 100px;
+    width: 600px;
+    padding-left: 70px;
+}
