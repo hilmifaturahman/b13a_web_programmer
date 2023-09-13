@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Belajar Algoritma Nilai</title>
+	</head>
+
+	<body>
+		<script>
+			// var bs diubah (diluar scope)
+			// let bs diubah (didalam scope)
+			// const tidak bisa diubah (wajib assign data)
+
+			var nama;
+			nama = "arif";
+			let result;
+			if (nama == "arif") {
+				result = "benar";
+				// console.log(result)
+			}
+			console.log(result);
+
+			let index = 1;
+			const a = index;
+			console.log(a);
+
+			for (index = 0; index < 5; index++) {
+				result = "looping";
+				console.log(result);
+			}
+			result = "selesai";
+			console.log(index);
+			index = 20;
+			console.log(index);
+			// a = 20
+			console.log(a);
+
+			// deklarasi awal
+			var nama; //data tidak ada (blm assign) > undefined
+			//assign data
+			nama = "arif";
+
+			// batas
+			var nama = "arif";
+			var nilai = 50;
+			var result2 = "tidak lulus";
+			if (nilai >= 60) result2 = "lulus";
+			// else result = "tidak lulus"
+			console.log("Data Keterangan : " + result2);
+		</script>
+	</body>
+</html>
