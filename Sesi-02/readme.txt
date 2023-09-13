@@ -46,9 +46,11 @@ ________________________________________________________________________________
 ■ Heading atau penjudulan
   <h1></h1> sampai <h6></h6>
   ■ Tag h1 sampai h6 digunakan untuk membuat judul, tag h1 ukuran paling besar dan h6 ukuran paling kecil, h2 sampai h6 bisa di gunakan sebagai sub judul.
-__________________________________________________________________________________■ Draw io online / sketsa
+__________________________________________________________________________________
+■ Draw io online / sketsa
   https://app.diagrams.net/
-__________________________________________________________________________________■ Membuat list atau daftar
+__________________________________________________________________________________
+■ Membuat list atau daftar
   ■ Ordered list(menggunakan penomoran)
     <ol>
       <li>list 1</li>
@@ -74,7 +76,8 @@ ________________________________________________________________________________
         </ul>
       </li>
     <ol/>
-__________________________________________________________________________________■ div atau division(pembagian)
+__________________________________________________________________________________
+■ div atau division(pembagian)
   <div></div>
   ■ Tag div hanya digunakan untuk membuat dokumen HTML lebih terstruktur dengan membagi-bagi dokumen ke dalam bagian-bagian yang lebih spesifik.
   ■ Tag div bisa di tambahkan atribut id atau class sebagai penamaan dan nanti bisa menjadi selector di CSS.
@@ -90,7 +93,8 @@ ________________________________________________________________________________
     </div>
   ■ atribut id digunakan untuk penamaan element HTML yang memiliki karakteristik unik/berbeda. Tidak boleh ada dua atau lebih element yang mempunyai id yang sama.
   ■ atribut class digunakan untuk penamaan element yang memiliki karakteristik atau struktur sama dan dapat digunakan berulang kali dalam HTML.
-__________________________________________________________________________________■ <div id="wrapper">
+__________________________________________________________________________________
+■ <div id="wrapper">
     <div id="content">
         <div id="article"></div>
         <div id="sidebar"></div>
@@ -99,7 +103,8 @@ ________________________________________________________________________________
   ■ <div id="wrapper"> adalah parent yang di dalam nya di sebut child <div id="content">
   ■ <div id="content"> adalah parent yang didalamnya ada child <div id="article"> dan <div id="sidebar">
   ■ <div id="article"> memiliki hubungan sibling atau saudara dengan <div id="sidebar">
-__________________________________________________________________________________■ Form
+__________________________________________________________________________________
+■ Form
   ■ Dalam sebuah website biasanya terdapat satu atau lebih form, seperti form pencarian, registrasi dan lain sebagainya. Form ini biasa digunakan untuk mengumpulkan data dari pengunjung website.
     <form>
        <h1>Formulir Pendaftaran</h1>
@@ -133,9 +138,11 @@ ________________________________________________________________________________
     ■ submit/button
       ■ Submit atau Button, berupa tombol yang dapat di klik. Penggunaan atribut value pada kontrol ini akan merubah text yang ada di dalamnya.
         <input type="submit" value="kirimkan data">
-__________________________________________________________________________________■ Jika ingin load cdn bootstrap untuk template
+__________________________________________________________________________________
+■ Jika ingin load cdn bootstrap untuk template
   https://getbootstrap.com/docs/4.3/getting-started/introduction/
-__________________________________________________________________________________■ tabel
+__________________________________________________________________________________
+■ tabel
   ■ untuk membuat data dengan tabel di HTML bisa menggunakan tag table
     <table></table>
   ■ untuk membuat baris gunakan tag tr singkatan dari table row (ditulis di dalam tag table)
@@ -188,6 +195,7 @@ ________________________________________________________________________________
   ■ <thead></thead> untuk bagian judul tabel
   ■ <tbody></tbody> untuk bagian isi tabel
   ■ <tfoot></tfoot> untuk bagian footer tabel
-__________________________________________________________________________________■ inline dan block
+__________________________________________________________________________________
+■ inline dan block
   ■ inline tidak memakan baris baru dan hanya memiliki lebar sepanjang yang di butuhkan sesuai dengan kontennya. contoh element dengan sifat inline: span, b, i.
   ■ block kebalikan dari inline selalu memakan baris baru dan memiliki ukuran lebar full satu halaman, contoh element dengan sifat block: div, h1, h2.
