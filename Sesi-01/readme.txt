@@ -18,17 +18,21 @@ ________________________________________________________________________________
     Menentukan bagaimana sebuah sistem bekerja dan bagaimana perubahan kondisi, operasi, dan lingkungan mempengaruhi hasi.
   ■ Kreatif
     Kemampuan berimajinasi dan menciptakan ide-ide orisinil terutama terkait pekerjaan yang bersifat artistik.
-__________________________________________________________________________________■ Back-end Developer adalah orang yang bertanggung jawab atas fungsi-fungsi yang mendukung agar website itu berjalan dengan optimalm seperti manajemen dari server, penguasaan database, dan lain sebagainya. Untuk itu, back end developer dituntut untuk mampu menguasai berbagai bahasa pemrograman seperti PHP, MySQL, Java, dan lain-lain.
-__________________________________________________________________________________■ Tugas Back-end developer:
+__________________________________________________________________________________
+■ Back-end Developer adalah orang yang bertanggung jawab atas fungsi-fungsi yang mendukung agar website itu berjalan dengan optimalm seperti manajemen dari server, penguasaan database, dan lain sebagainya. Untuk itu, back end developer dituntut untuk mampu menguasai berbagai bahasa pemrograman seperti PHP, MySQL, Java, dan lain-lain.
+__________________________________________________________________________________
+■ Tugas Back-end developer:
   ■ Merancang dan mengembangkan database;
   ■ Mengembangkan skrip-skrip agar aplikasi berjalan sesuai dengan fungsinya;
   ■ Mengintegrasikan elemen yang dikembangkan oleh front end dengan server;
-  ■ Mengimplementasikan keamanan dan proteksi database;■ Merancang dan mendesain tempat penyimpanan database;
+  ■ Mengimplementasikan keamanan dan proteksi database;
+  ■ Merancang dan mendesain tempat penyimpanan database;
   ■ Menguasai bahasa pemrograman seperti SQL, PHP, dan seterusnya;
   ■ Menguji performa User Interface;
   ■ Membangun kode untuk penggunaan jangka panjang;
   ■ Troubleshoot dan debug aplikasi.
-__________________________________________________________________________________■ Keterampilan Back-end developer:
+__________________________________________________________________________________
+■ Keterampilan Back-end developer:
   ■ Aktif belajar
     Memahami implikasi dari informasi baru untuk dasar pengambilan keputusan dan menyelesaikan masalah sekarang maupun masa yang akan datang.
   ■ Penyelesaian masalah yang kompleks
@@ -44,23 +48,30 @@ ________________________________________________________________________________
   ■ /js/script.js
   ■ /index.html
   ■ /README.md
-__________________________________________________________________________________■ Web Browser adalah perangkat utaman yang akan kita gunakan untuk menampilkan halaman web yang pada dasarnya terbuat dari HTML dan CSS.
+__________________________________________________________________________________
+■ Web Browser adalah perangkat utaman yang akan kita gunakan untuk menampilkan halaman web yang pada dasarnya terbuat dari HTML dan CSS.
 Setiap browser memiliki perbedaan dalam menampilkan halaman web dan fitur yang di dukung dalam HTML dan CSS.
 Boleh jadi halaman web yang dibuat ditampilkan benar pada salah satu browser namun acak-acakan pada browser lainnya.
 Untuk itu perlu beberapa browser yang terinstall dalam komputer untuk menguji penampilan website yang dibuat. Isu-isu kompatibilitas ini akan di temui ketika mempelajari CSS nantinya yang berhubungan dalam penampilan halaman web.
-__________________________________________________________________________________■ Beberapa contoh Web Browser:
+__________________________________________________________________________________
+■ Beberapa contoh Web Browser:
   ■ Firefox
   ■ Google Chrome
   ■ Safari
-__________________________________________________________________________________■ Add-on/Plugin adalah aplikasi tambahan yang dapat dipasang sehingga memperkaya fitur software yang bersangkutan.
-__________________________________________________________________________________■ Firebug akan digunakan untuk memeriksa kode HTML dari setiap halaman web, melihat CSS yang digunakan dan untuk menguji script javascript, firebug harus di install pada browser firefox. Pada browser lain tidak perlu install firebug karena sudah ada bawaannya yaitu Developer Tools.
-__________________________________________________________________________________■ Teks Editor digunakan untuk menulis sebuah kode nanti hasilnya di tampilkan pada halaman website oleh web browser.
-__________________________________________________________________________________■ Contoh beberapa teks editor:
+__________________________________________________________________________________
+■ Add-on/Plugin adalah aplikasi tambahan yang dapat dipasang sehingga memperkaya fitur software yang bersangkutan.
+__________________________________________________________________________________
+■ Firebug akan digunakan untuk memeriksa kode HTML dari setiap halaman web, melihat CSS yang digunakan dan untuk menguji script javascript, firebug harus di install pada browser firefox. Pada browser lain tidak perlu install firebug karena sudah ada bawaannya yaitu Developer Tools.
+__________________________________________________________________________________
+■ Teks Editor digunakan untuk menulis sebuah kode nanti hasilnya di tampilkan pada halaman website oleh web browser.
+__________________________________________________________________________________
+■ Contoh beberapa teks editor:
   ■ Visual studio code
   ■ Adobe Dreamweaver
   ■ Sublime Text
   ■ Atom
-__________________________________________________________________________________■ Panduan instalasi vscode (visual studio code) pada OS windows:
+__________________________________________________________________________________
+■ Panduan instalasi vscode (visual studio code) pada OS windows:
   ■ Unduh terlebih dahulu dengan mengujungi https://code.visualstudio.com/
   ■ Setelah terunduh Double klik pada file installer nya atau klik kanan kemudian pilih Run as Administrator.
   ■ Jika muncul peringatan Run as Administrator, silahkan klik Yes.
@@ -71,12 +82,14 @@ ________________________________________________________________________________
   ■ Lalu klik Install untuk memulai proses instalasi.
   ■ Tunggu sampai proses instalasi selesai.
   ■ Setelah selesai klik Finish.
-__________________________________________________________________________________■ Install beberapa extensions pada vscode:
+__________________________________________________________________________________
+■ Install beberapa extensions pada vscode:
   ■ live server
   ■ Prettier - Code formatter
   ■ Auto rename tag
   ■ Auto close tag
-__________________________________________________________________________________■ Struktur HTML : (hasil dari generate dengan mengetikan ! di visual studio code)
+__________________________________________________________________________________
+■ Struktur HTML : (hasil dari generate dengan mengetikan ! di visual studio code)
 
 <!DOCTYPE html>
 <html lang="en">
