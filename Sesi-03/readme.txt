@@ -16,13 +16,15 @@ ________________________________________________________________________________
 ■ Property adalah atribut style yang ingin diubah, misalnya warna teks (color), warna latar belakang (background), ukuran teks (font-size), dsb.
 ■ Untuk memberikan value pada property CSS, dipisahkan dengan ":" (titik dua) dan diakhiri dengan ";" (titik koma).
 ■ Value adalah nilai dari property. Misalnya untuk color bisa red, green, blue. Untuk background bisa #fff, #000 dsb.
-__________________________________________________________________________________■ Class tidak unik
+__________________________________________________________________________________
+■ Class tidak unik
 class bisa digunakan untuk menandai lebih dari satu element, menggunakan simbol .(dot) untuk menandai class.
 ■ ID bersifat unik
 ID hanya boleh digunakan sekali saja untuk satu element. menggunakan simbol #(hash) untuk menandai ID.
 __________________________________________________________________________________
 ■ Untuk melatih kemampuan selector => https://flukeout.github.io/
-__________________________________________________________________________________■ Penggunaan comment dalam HTML:
+__________________________________________________________________________________
+■ Penggunaan comment dalam HTML:
   <!-- ini adalah comment satu baris dalam HTML -->
   <!-- ini adalah comment
   multi baris dalam HTML -->
@@ -32,7 +34,8 @@ ________________________________________________________________________________
   comment multi baris
   dalam CSS
   */
-__________________________________________________________________________________■ Cara menempatkan CSS:
+__________________________________________________________________________________
+■ Cara menempatkan CSS:
   ■ Inline CSS: menuliskan CSS langsung pada tag style, contoh:
     <p style="color: blue;">Paragraf biru</p>
   ■ Internal CSS: menuliskan CSS di dalam tag <style> di dalam bagian <head> document HTML, contoh:
@@ -74,19 +77,22 @@ ________________________________________________________________________________
     ■ margin-bottom yaitu jarak luar bawah element
     ■ margin-left yaitu jarak luar kiri element
   jika menggunakan properties margin saja maka akan otomatis mengatur keempat sisi margin sekaligus. Urutannya atas, kanan, bawah, kiri.
-__________________________________________________________________________________  ■ padding adalah sisi dalam sebuah element, misalnya ingin mengatur jarak antara sisi dalam element dengan perbatasannya. Terdapat beberapa sisi dalam padding:
+__________________________________________________________________________________
+■ padding adalah sisi dalam sebuah element, misalnya ingin mengatur jarak antara sisi dalam element dengan perbatasannya. Terdapat beberapa sisi dalam padding:
     ■ padding-top yaitu jarak dalam atas element
     ■ padding-right yaitu jarak dalam kanan element
     ■ padding-bottom yaitu jarak dalam bawah element
     ■ padding-left yaitu jarak dalam kiri element
   jika menggunakan properties padding saja maka akan otomatis mengatur keempat sisi padding sekaligus. Urutannya atas, kanan, bawah, kiri.
-__________________________________________________________________________________  ■ font untuk mengatur jenis font, ukuran font, style font dll. Beberapa properties untuk mengatur font:
+__________________________________________________________________________________
+■ font untuk mengatur jenis font, ukuran font, style font dll. Beberapa properties untuk mengatur font:
     ■ font-family adalah jenis font, misalnya Arial, Times New Roman, sans-serif
     ■ font-size untuk merubah ukuran font, misalnya 12px, 20pt, larger
     ■ font-weight untk merubah ketebalan font, misalnya normal, bold, bolder, lighter
     ■ font-style untuk merubah gaya font, misalnya normal, italic, oblique
     ■ color untuk merubah warna font, misalnya #fff, #000, blue, green
-__________________________________________________________________________________  ■ hyperlink untuk mengatur style link, misalnya warna link, warna link saat dikunjungi, warna link saat di klik. Beberapa properties untuk hyperlink anchor(a):
+__________________________________________________________________________________
+■ hyperlink untuk mengatur style link, misalnya warna link, warna link saat dikunjungi, warna link saat di klik. Beberapa properties untuk hyperlink anchor(a):
     ■ a:link untuk merubah status link default
     ■ a:visited untuk merubah status link setelah dikunjungi
     ■ a:active untuk merubah status link saat diklik
@@ -96,7 +102,8 @@ ________________________________________________________________________________
           color: blue;
           background: white;
         }
-__________________________________________________________________________________  ■ format text untuk mengatur format teks, misalnya:
+__________________________________________________________________________________
+■ format text untuk mengatur format teks, misalnya:
     ■ color
     ■ text-align
     ■ text-decoration
@@ -125,7 +132,8 @@ ________________________________________________________________________________
   ■ list css
     ■ CSS sangat berguna ketika ingin membuat daftar list dengan model tertentu misalnya list yang berbentuk angka, titik, angka romawi dan lainnya.
     ■ Dengan menggunakan CSS kita dapat memanipulasi list HTML dengan mengubah bentuk tanda listnya. untuk mengubah list HTML dengan CSS bisa menggunakan property “list-style-type” yang berarti tipe gaya list.
-__________________________________________________________________________________■ Responsive web
+__________________________________________________________________________________
+■ Responsive web
   @media(min-width:992px) {
        .selector { 
              width:970px; 
@@ -140,7 +148,8 @@ ________________________________________________________________________________
   ■ Kode yang pertama adalah kode css untuk mendeskripsikan bahwa kode yang ada diantara kurung kurawal pertama & terakhirnya hanya digunakan untuk perangkat yang resolusinya 992 pixel atau lebih (untuk Komputer/Laptop). 
 
   ■ Kode yang kedua adalah kode css untuk mendeskripsikan bahwa kode yang ada diantara kurung kurawal pertama & terakhirnya hanya digunakan untuk perangkat yang resolusinya 768 piksel atau lebih kecil (untuk Tablet).
-__________________________________________________________________________________■ GITHUB
+__________________________________________________________________________________
+■ GITHUB
   ■ email student : (blm teregistrasi ke github) 
   ■ di daftarkan github student > membutuhkan KTM > valid until date (ditambahkan)
   ■ https://education.github.com/benefits?type=student
