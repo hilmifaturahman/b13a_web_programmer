@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Belajar Tipe Data Number di JS</title>
+	</head>
+	<body>
+		<h1>Belajar Tipe Data Number di JS</h1>
+
+		<body>
+			<h1>Belajar Tipe Data Number di JS</h1>
+		
+			<!-- output -->
+			<div id="hasil"></div>
+		
+			<script>
+				// angka/number
+				var angka = 80
+				var kalimat = "Belajar JS di Workshop WFDB"
+				var transport = ["Mobil", "Motor", "Pesawat", "Kapal"]
+				var manusia = {
+					nama: "Hilmi",
+					asal: "Indonesia",
+					usia: 25,
+				}
+		
+				// deklarasi variabel & assign value
+				var dataHasil = document.getElementById("hasil")
+				// output 1. angka
+				dataHasil.innerHTML = `Data Angka: ${angka}`
+				// output 2. kalimat
+		
+				dataHasil.innerHTML += `<br>Data Kalimat: ${kalimat}`
+		
+				// output 3. transport
+				// array [] > 0 s.d panjang data (array)
+				// contoh ["Kucing","Burung","Ikan"] > 0, 1, 2
+				// total 3 data
+				var hasilTransport = `Ini Kendaran : ${transport[0]} <br>`
+				dataHasil.innerHTML += `<br>Data Transport: ${transport}<br>${hasilTransport}`
+		
+				// output 4. manusia
+				// object {}
+				var hasilManusia = `Nama: ${manusia.nama} <br>
+									Asal: ${manusia.asal} <br>
+									Usia: ${manusia.usia} <br>`;
+				dataHasil.innerHTML += `<br>Data Manusia: ${manusia}<br>${hasilManusia}`
+		
+			</script>
+	</body>
+</html>

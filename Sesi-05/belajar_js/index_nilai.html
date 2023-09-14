@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Hitung Grade Menggunakan JS</title>
+	</head>
+	<body>
+		<h1>Hitung Grade Menggunakan JS</h1>
+
+		<div id="hasil"></div>
+		<script>
+			var dataHasil = document.getElementById("hasil");
+			dataHasil.innerHTML = `Grade: ${hitungGrade(89)}`;
+
+			function hitungGrade(nilai) {
+				let grade; // = "Nilai tidak valid"
+				if (nilai >= 90 && nilai <= 100) {
+					grade = "A";
+				} else if (nilai >= 80 && nilai <= 89) {
+					grade = "B";
+				} else if (nilai >= 70 && nilai <= 79) {
+					grade = "C";
+				} else if (nilai >= 60 && nilai <= 69) {
+					grade = "D";
+				} else if (nilai >= 0 && nilai <= 59) {
+					grade = "E";
+				} else {
+					grade = "Nilai tidak valid";
+				}
+
+				return grade;
+			}
+		</script>
+	</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Belajar Operator Aritmatika di JS</title>
+	</head>
+	<body>
+		<h1>Belajar Operator Aritmatika di JS</h1>
+
+        <body>
+            <h1>Belajar Operator Aritmatika di JS</h1>
+        
+            <div id="penjumalahan"></div>
+            <div id="pengurangan"></div>
+            <div id="perkalian"></div>
+            <div id="pembagian"></div>
+            <div id="modulus"></div>
+        
+            <hr>
+            <div id="hasil"></div>
+        
+            <script>
+                var bilangan1 = 6
+                var bilangan2 = 2
+        
+                var penjumlahan = bilangan1 + bilangan2
+                var pengurangan = bilangan1 - bilangan2
+                var perkalian = bilangan1 * bilangan2
+                var pembagian = bilangan1 / bilangan2
+                var modulus = bilangan1 % bilangan2
+        
+                document.getElementById("penjumalahan").innerHTML = `Penjumlahan ${bilangan1} + ${bilangan2} = ${penjumlahan}`
+                document.getElementById("pengurangan").innerHTML = `Pengurangan ${bilangan1} - ${bilangan2} = ${pengurangan}`
+                document.getElementById("perkalian").innerHTML = `Perkalian ${bilangan1} * ${bilangan2} = ${perkalian}`
+                document.getElementById("pembagian").innerHTML = `Pembagian ${bilangan1} / ${bilangan2} = ${pembagian}`
+                document.getElementById("modulus").innerHTML = `Modulus ${bilangan1} % ${bilangan2} = ${modulus}`
+        
+        
+                // contoh function
+                document.getElementById("hasil").innerHTML = `Contoh Function Hasil: ${hitung("tambah")}`
+        
+                //function hitungan dengan 1 parameter kondisi (tambah, kurang, kali, bagi, modulus)
+                function hitung(kondisi) {
+                    var bilangan1 = 5
+                    var bilangan2 = 10
+        
+                    var hasil = 0
+                    if (kondisi == "tambah") {
+                        hasil = bilangan1 + bilangan2
+                    } else if (kondisi == "kurang") {
+                        hasil = bilangan1 - bilangan2
+                    } else if (kondisi == "kali") {
+                        hasil = bilangan1 * bilangan2
+                    } else if (kondisi == "bagi") {
+                        hasil = bilangan1 / bilangan2
+                    } else if (kondisi == "modulus") {
+                        hasil = bilangan1 % bilangan2
+                    } else {
+                        hasil = "Kondisi tidak ditemukan"
+                    }
+        
+                    return hasil
+        
+                }
+            </script>
+	</body>
+</html>

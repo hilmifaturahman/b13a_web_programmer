@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Belajar Event</title>
+	</head>
+	<body>
+		<h1>Belajar Event</h1>
+		<button id="tombol" onclick="ubahText()">Klik Disini</button>
+		<script>
+			function ubahText() {
+				// document.getElementById("tombol").innerHTML = "Halo Yal"
+				// cek Halo Yal di console
+				var data = document.getElementById("tombol").innerHTML;
+				console.log(data);
+
+				//kondisi
+				if (data == "Halo Yal") {
+					document.getElementById("tombol").innerHTML = "Klik Disini";
+				} else {
+					document.getElementById("tombol").innerHTML = "Halo Yal";
+				}
+			}
+		</script>
+	</body>
+</html>

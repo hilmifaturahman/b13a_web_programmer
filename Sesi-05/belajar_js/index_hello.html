@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Belajar JS Hello World</title>
+		<!-- load external js -->
+		<script src="script.js"></script>
+	</head>
+	<body>
+		<h1>Belajar JS Hello World</h1>
+
+		<div id="nama">Workshop 4 Days</div>
+		<div id="lokasi">Online</div>
+
+		<!-- ini kedua -->
+		<script>
+			//deklarasi variabel & assign value
+			var nama = "Workshop 4 Days";
+			var lokasi = "Online";
+			//sblm menggunakan variabel
+			document.getElementById("nama").innerHTML = nama;
+			document.getElementById("nama").innerHTML += "<br>Hello";
+
+			// udh menggunakan variabel
+			var dataNama = document.getElementById("nama");
+			dataNama.innerHTML += "<br>Arif";
+			dataNama.innerHTML += "<br>Arif";
+			dataNama.innerHTML += "<br>Arif";
+			document.getElementById("lokasi").innerHTML = lokasi;
+
+			// penggunaan \n > untuk console
+			// penggunaan <br> > untuk html/document
+			console.log("Hello World\n\nArif");
+		</script>
+	</body>
+</html>

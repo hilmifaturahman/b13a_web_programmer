@@ -1,0 +1,1 @@
+console.log("dipanggil melalui external")

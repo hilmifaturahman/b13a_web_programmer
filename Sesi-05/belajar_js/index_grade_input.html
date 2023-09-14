@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Cek Grade</title>
+	</head>
+	<body>
+		<h1>Cek Grade</h1>
+
+		<form action="">
+			<label for="">Nilai</label>
+			<input type="number" placeholder="Isikan Nilai" required />
+			<button type="submit">Cek Grade</button>
+			<p id="hasil"></p>
+		</form>
+
+		<script>
+			// deklarasi variabel
+			var nilai = 0;
+			var grade = "";
+
+			// ambil nilai dari form
+			var dataNilai = document.querySelector("input[type=number]");
+			var dataGrade = document.querySelector("form button");
+
+			// event
+			dataGrade.addEventListener("click", function (e) {
+				e.preventDefault();
+				nilai = dataNilai.value;
+				grade = hitungGrade(nilai);
+				document.getElementById("hasil").innerHTML = `Grade: ${grade}`;
+			});
+
+			// function
+			function hitungGrade(nilai) {
+				if (nilai >= 90 && nilai <= 100) {
+					grade = "A";
+				} else if (nilai >= 80 && nilai <= 89) {
+					grade = "B";
+				} else if (nilai >= 70 && nilai <= 79) {
+					grade = "C";
+				} else if (nilai >= 60 && nilai <= 69) {
+					grade = "D";
+				} else if (nilai >= 1 && nilai <= 59) {
+					grade = "E";
+				} else {
+					grade = "Nilai tidak valid";
+				}
+
+				return grade;
+			}
+		</script>
+	</body>
+</html>

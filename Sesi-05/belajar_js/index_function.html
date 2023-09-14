@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Belajar Function di Java Script</title>
+	</head>
+	<body>
+		<h1>Belajar Function di Java Script</h1>
+
+		<div id="nama"></div>
+		<div id="lokasi"></div>
+
+		<script>
+			// deklarasi dan assign
+			var nama = helloNama("Arif", "Setiawan");
+			var lokasi = helloLokasi();
+
+			// helloNama();
+			var dataNama = document.getElementById("nama");
+			dataNama.innerHTML = "<br>Hello " + nama;
+
+			// log data
+			console.log(typeof nama); //ada data / string
+			console.log(typeof lokasi); //tidak ada data / undefined
+
+			//function return (menggunakan 2 parameter)
+			function helloNama(namaDepan, namaBelakang) {
+				return `Nama Depan: ${namaDepan} <br> Nama Belakang: ${namaBelakang}`;
+			}
+
+			// dataNama.innerHTML += "<br>Hello " + ;
+			// panggil function
+			helloLokasi();
+			function helloLokasi() {
+				document.getElementById("lokasi").innerHTML = "Online";
+				// var result = ["A","B","C"]
+				// return result
+			}
+		</script>
+	</body>
+</html>
