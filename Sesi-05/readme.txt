@@ -45,6 +45,42 @@ ________________________________________________________________________________
 ■ Variabel
   ■ Variabel adalah suatu penyimpanan untuk data dan kita dapat menggunakan variabel untuk menyimpan beberapa informasi atau data.
   ■ Untuk membuat sebuah variabel pada JavaScript, kita dapat menggunakan keyword var, let atau const.
+__________________________________________________________________________________
+  ■ Contoh penggunaan var:
+  function contohVar() {
+    var x = 10;
+    if (true) {
+      var x = 20;
+      console.log(x); // Output: 20
+    }
+    console.log(x); // Output: 20
+  }
+  contohVar();
+
+    ■ Dalam contoh ini, variabel x dideklarasikan dengan var di dalam fungsi contohVar(). Meskipun x dideklarasikan kembali di dalam blok if, perubahan tersebut berlaku di seluruh fungsi karena variabel var memiliki lingkup fungsi.
+  ■ Contoh penggunaan let:
+  function contohLet() {
+    let y = 10;
+    if (true) {
+      let y = 20;
+      console.log(y); // Output: 20
+  }
+    console.log(y); // Output: 10
+  }
+  contohLet();
+    ■ Dalam contoh ini, variabel y dideklarasikan dengan let di dalam fungsi contohLet(). Ketika y dideklarasikan kembali di dalam blok if, perubahan tersebut hanya berlaku di dalam blok itu sendiri. Di luar blok, variabel y tetap memiliki nilai awalnya.
+  ■ Contoh penggunaan const:
+  function contohConst() {
+    const z = 10;
+    if (true) {
+      const z = 20;
+      console.log(z); // Output: 20
+    }
+    console.log(z); // Output: 10
+  }
+  contohConst();
+    ■ Dalam contoh ini, variable z dideklarasikan dengan const di dalam fungsi contohConst(). Meskipun z dideklarasikan kembali di dalam blok if, perubahan tersebut hanya berlaku di dalam blok itu sendiri. Konstanta z di luar blok tetap memiliki nilai awalnya dan tidak dapat diubah.
+__________________________________________________________________________________
   ■ Statement berikut adalah untuk membuat (mendeklarasikan) variabel dengan nama "pesan":
 
   <!DOCTYPE html>
