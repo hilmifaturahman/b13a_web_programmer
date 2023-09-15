@@ -69,6 +69,11 @@ ________________________________________________________________________________
   }
   contohLet();
     ■ Dalam contoh ini, variabel y dideklarasikan dengan let di dalam fungsi contohLet(). Ketika y dideklarasikan kembali di dalam blok if, perubahan tersebut hanya berlaku di dalam blok itu sendiri. Di luar blok, variabel y tetap memiliki nilai awalnya.
+  ■ Contoh lain:
+  let x = 10;
+  x = 20; // Nilai x diubah menjadi 20
+  console.log(x); // Output: 20
+
   ■ Contoh penggunaan const:
   function contohConst() {
     const z = 10;
@@ -79,7 +84,11 @@ ________________________________________________________________________________
     console.log(z); // Output: 10
   }
   contohConst();
-    ■ Dalam contoh ini, variable z dideklarasikan dengan const di dalam fungsi contohConst(). Meskipun z dideklarasikan kembali di dalam blok if, perubahan tersebut hanya berlaku di dalam blok itu sendiri. Konstanta z di luar blok tetap memiliki nilai awalnya dan tidak dapat diubah.
+    ■ Dalam contoh ini, variable z dideklarasikan dengan const di dalam fungsi contohConst(). Meskipun z dideklarasikan kembali di dalam blok if, perubahan tersebut hanya berlaku di dalam blok itu sendiri. Variable z di luar blok tetap memiliki nilai awalnya dan tidak dapat diubah.
+  ■ Contoh lain:
+  const y = 10;
+  y = 20; // Error: Konstanta tidak dapat diubah
+  console.log(y); // Output: 10
 __________________________________________________________________________________
   ■ Statement berikut adalah untuk membuat (mendeklarasikan) variabel dengan nama "pesan":
 
