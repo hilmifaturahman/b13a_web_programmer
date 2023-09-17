@@ -42,3 +42,9 @@
 
 - JavaScript Looping
 ---
+[Sesi 06](https://github.com/hilmifaturahman/b13a_web_programmer/tree/main/Sesi-06)
+
+- DOM(Document Object Model)
+
+- Regex(Regular Expression)
+---
