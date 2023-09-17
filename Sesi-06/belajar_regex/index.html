@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Belajar Regex</title>
+	</head>
+	<body>
+		<h1>Belajar Regex</h1>
+
+		<form action="">
+			<label for="password">Masukkan Password Anda</label>
+			<input type="password" required />
+			<button type="submit">Submit Data</button>
+		</form>
+		<script>
+			var foo = /ab+c/;
+			var foo2 = "ab+c";
+			var foo3 = new RegExp("ab+c");
+			console.log(typeof foo);
+			console.log(typeof foo2);
+			console.log(typeof foo3);
+
+			console.log("====================================");
+
+			var foo = "Belajar JavaScript";
+			var pola = /JavaScript/;
+			console.log(pola.test(foo));
+			if (pola.test(foo)) {
+				console.log("Pola JavaScript Ditemukan");
+			} else {
+				console.log("Pola JavaScript Tidak Ditemukan");
+			}
+
+			//   cek belajar
+			console.log(/Belajar/.test(foo));
+			console.log(/belajar/.test(foo));
+
+			// cek digit
+			var foo = "1 jam sama dengan 60 menit, juga sama dengan 3600 detik";
+			var pola = /\d+/g;
+			console.log(pola.exec(foo));
+			console.log(pola.exec(foo));
+			console.log(pola.exec(foo));
+			console.log(pola.exec(foo)); //tidak ada
+
+			var foo = "Belajar JavaScript";
+			console.log(/JavaScript/.test(foo));
+			console.log(/javaScript/.test(foo));
+			console.log(/Belajar/.test(foo));
+			console.log(/belajar/.test(foo));
+			console.log(/Java/.test(foo));
+			console.log(/ajar/.test(foo));
+
+			console.log("====================================");
+
+			// var pola = /[abcde]../
+			var pola = /[a-f 1]../; //support
+			console.log(pola.test("abaa"));
+			console.log(pola.test("fba"));
+			console.log(pola.test("1dd"));
+			console.log(pola.test("add"));
+			console.log(pola.test(" dd"));
+			console.log(pola.test("belajar"));
+		</script>
+	</body>
+</html>

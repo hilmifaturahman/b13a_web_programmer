@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Belajar DOM</title>
+	</head>
+	<body style="background-color: aqua">
+		<h1 id="dom">Belajar DOM</h1>
+		<a href="https://google.com" target="_blank">Klik Disini</a>
+		<br />
+
+		<!-- ubah warna -->
+		<label for="">Ubah Warna</label>
+		<input type="color" id="warna" />
+
+		<br />
+		<script>
+			document.write("Hello World");
+			document.write("<br>");
+			document.write("Hello World YAL");
+			document.write("<h2>Saya Sedang Belajar DOM</h2>");
+
+			var head = document.head;
+			var body = document.body;
+			var judulLength = document.title.length;
+			// console.log(head, body, judulLength);
+
+			var judul = document.createElement("p");
+			judul.textContent = "Belajar JS dibuat dari createElement";
+			document.body.append(judul);
+
+			var dom = document.getElementById("dom");
+			console.log("Sebelum Dihapus");
+			console.log(dom);
+			console.log("Sesudah Dihapus");
+			dom.remove();
+
+			console.log(document.getElementsByTagName("h1")[0]);
+			document.body.style.color = "blue";
+			document.body.style.padding = "20px";
+		</script>
+	</body>
+</html>

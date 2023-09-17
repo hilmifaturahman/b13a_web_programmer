@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Ubah Warna Teks dan Background</title>
+	</head>
+	<body>
+		<h1>Ubah Warna</h1>
+		<label for="">Warna Latar</label>
+		<input type="color" id="warna-latar" />
+		<br />
+		<label for="">Warna Teks</label>
+		<input type="color" id="warna-teks" />
+
+		<br />
+		<button onclick="reset()">Reset Warna</button>
+		<script>
+			var warnaLatar = document.getElementById("warna-latar");
+			var warnaTeks = document.getElementById("warna-teks");
+
+			//   normal();
+
+			warnaLatar.addEventListener("change", function () {
+				document.body.style.backgroundColor = warnaLatar.value;
+				console.log(warnaLatar.value);
+			});
+			warnaTeks.addEventListener("change", function () {
+				document.body.style.color = warnaTeks.value;
+				console.log(warnaTeks.value);
+			});
+
+			function reset() {
+				// normal();
+
+				//di refresh
+				location.reload();
+			}
+
+			function normal() {
+				// default bg dan warna teks / tidak di refresh
+				document.body.style.backgroundColor = "aqua";
+				document.body.style.color = "darkblue";
+
+				warnaLatar.value = "#00ffff";
+				warnaTeks.value = "#00008b";
+
+				console.log(warnaLatar.value);
+				console.log(warnaTeks.value);
+			}
+		</script>
+	</body>
+</html>
