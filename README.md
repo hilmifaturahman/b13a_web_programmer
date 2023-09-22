@@ -48,3 +48,14 @@
 
 - Regex(Regular Expression)
 ---
+[Sesi 07](https://github.com/hilmifaturahman/b13a_web_programmer/tree/main/Sesi-07)
+
+- Website Testing
+
+- Website Deployment
+---
+[Sesi 08](https://github.com/hilmifaturahman/b13a_web_programmer/tree/main/Sesi-08)
+
+- Final Project: Membuat Landing Pages Online
+Portlio
+---
