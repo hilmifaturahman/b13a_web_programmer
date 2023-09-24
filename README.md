@@ -57,5 +57,5 @@
 [Sesi 08](https://github.com/hilmifaturahman/b13a_web_programmer/tree/main/Sesi-08)
 
 - Final Project: Membuat Landing Pages Online
-Portlio
+Portfolio
 ---
